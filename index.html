@@ -3,14 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.google.com/share#how-to-use?selection.family=Lora:ital,wght@0,400..700;1,400..700' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Index</title>
 
 </head>
 <body>
-
-  
   <div class="Index">
     <!--navigation-->
     <div class="navbar">
@@ -34,6 +32,7 @@
             <br><br><br><br>
             <br><br><br><br>
             <br><br><br><br>
+            <!--CHECKING-->
     </div>
     <div= "about">
       <div= "grad">
@@ -88,12 +87,17 @@
                 </div>
               </div>
             </div>
-      </div>
+      </div> <br><br>
+      <br><br><br><br>
+            <br><br><br><br>
+            <br><br><br><br>
+            <br><br><br><br>
+    <div class="contact">
       <h1>Connect With Me</h1>
       <p> If you would like to know more about me or my work, or you would like us to collaborate on a project. <br>
          Feel free to contact me. Looking forward to collaborations. </p>
   
-      <div class="contact">
+      <div class="contactform">
           <form action="">
               <label for="name">Name:</label><br>
               <input type="text" id="name" name="name" placeholder="Enter you name"><br>
@@ -104,7 +108,37 @@
               <input type="button" class="button" value="Send">
           </form>
       </div>  
+    </div>
+
+    <div class="button">
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </div>
+
+    <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
       <footer>
+        <div class="footer">
+            <a href=""></a>
+        </div>
   
       </footer>
 </body>

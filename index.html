@@ -15,29 +15,43 @@
         <ul>
         <!-- <li><img src="logo.png" alt="Logo" width="250px" height="100px"></li>-->
 
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href = "projects.html">Projects</a></li>
-            <li><a href="about.html">About</a></li>
+            <li class"links"><a href="#contact">Contact</a></li>
+            <li><a href = "#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="index.html">Home</a></li>
+
+
+
+            <!--<nav>
+              <ul class="container">
+                  <img src="src/Images/logo picture.PNG" alt="motion_magic_logo" id="logo">
+                  <li class="links"> <a href="">Home</a> &nbsp; &nbsp;</li>
+                  <li class="links"> <a href="#about">About</a> &nbsp; &nbsp;</li>
+                  <li class="links"><a href="#services">Services</a> &nbsp; &nbsp; </li>
+                  <li class="links"><a href="#contact">Contact</a> &nbsp; &nbsp; </li>
+              </ul>
+          </nav>-->
         </ul><br>
     </div><br><br>
 
     <br><br><br><br>
         <h1>Hi, I am <div class="name">Aphiwe Skeyi</div></h1><br>
             and <div class="typewriter"><h1>I'm a Software Developer</h1></div>
-            <div>
-                <input type="button" class="homebutton" value="Resume">
-            </div><br><br><br>
+            <div class="homebutton">
+                <input type="button" class="homebutton" value="Resume" style="font-family:'Audiowide'" onclick= "window.open('Aphiwe Skeyi Resume.pdf', '_blank')">
+                <!-- <button onclick= "window.open('Aphiwe Skeyi Resume.pdf', '_blank')" >CV</button> -->
+              </div><br><br><br>
             <br><br><br><br>
             <br><br><br><br>
             <br><br><br><br>
             <br><br><br><br>
             <!--CHECKING-->
     </div>
+    <section id="about">
     <div= "about">
       <div= "grad">
             <h1>About Me</h1>
-            <img src="grad.jpeg" alt="Graduation Photo" style="width:300px;height:300px; border-radius: 50%;"><br><br>
+            <img src="grad1.png" alt="Graduation Photo" style="width:300px;height:300px; border-radius: 50%;"><br><br>
       </div>
             <h1>Education</h1>
     
@@ -87,32 +101,40 @@
                 </div>
               </div>
             </div>
-      </div> <br><br>
+      </div>
+    </section> <br><br>
       <br><br><br><br>
             <br><br><br><br>
             <br><br><br><br>
-            <br><br><br><br>
-    <div class="contact">
-      <h1>Connect With Me</h1>
-      <p> If you would like to know more about me or my work, or you would like us to collaborate on a project. <br>
-         Feel free to contact me. Looking forward to collaborations. </p>
-  
-      <div class="contactform">
-          <form action="">
-              <label for="name">Name:</label><br>
-              <input type="text" id="name" name="name" placeholder="Enter you name"><br>
-              <label for="name">Email:</label><br>
-              <input type="text" id="email" name="email" placeholder="Enter you email address"><br>
-              <label for="name">Message:</label><br>
-              <textarea name="message" id="message" placeholder="Enter your message here..." cols="30" rows="10"></textarea><br>     
-              <input type="button" class="button" value="Send">
-          </form>
-      </div>  
-    </div>
 
-    <div class="button">
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    </div>
+            <section id="projects">
+
+
+              <p>Projects will be here</p>
+            </section>
+    <section id="contact">
+        <div class="contact">
+          <h1>Connect With Me</h1>
+          <p> If you would like to know more about me or my work, or you would like us to collaborate on a project. <br>
+            Feel free to contact me. Looking forward to collaborations. </p>
+  
+            <div class="contactform">
+                <form action="">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter you name"><br>
+                    <label for="name">Email:</label><br>
+                    <input type="text" id="email" name="email" placeholder="Enter you email address"><br>
+                    <label for="name">Message:</label><br>
+                    <textarea name="message" id="message" placeholder="Enter your message here..." cols="30" rows="10"></textarea><br>     
+                    <input type="button" class="button" value="Send">
+                </form>
+            </div>  
+          </div>
+        </section>
+
+          <div class="button">
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+          </div>
 
     <script>
       // Get the button
